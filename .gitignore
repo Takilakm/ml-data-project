@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------
+# PRIVACY — never commit logs that still contain real names.
+# Only the anonymised P1/P2/P3 file belongs in this repo.
+# ---------------------------------------------------------------
+data/raw_with_names*.csv
+data/*_personal.csv
+data/*_private.*
+data/name_mapping.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
