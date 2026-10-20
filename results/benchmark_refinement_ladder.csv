@@ -1,0 +1,16 @@
+dataset,model,stage,accuracy,precision,recall,f1,note
+Benchmark (Wisconsin breast cancer),Naive Bayes,0 · baseline,0.939,0.936,0.932,0.934,
+Benchmark (Wisconsin breast cancer),Naive Bayes,1 · + scaling,0.93,0.925,0.925,0.925,
+Benchmark (Wisconsin breast cancer),Naive Bayes,2 · + outlier removal,0.904,0.893,0.909,0.899,
+Benchmark (Wisconsin breast cancer),Naive Bayes,3 · + feature selection,0.895,0.884,0.902,0.89,
+Benchmark (Wisconsin breast cancer),Naive Bayes,4 · + tuning,0.895,0.884,0.902,0.89,{'clf__var_smoothing': 1e-11}
+Benchmark (Wisconsin breast cancer),Logistic Regression,0 · baseline,0.965,0.962,0.962,0.962,
+Benchmark (Wisconsin breast cancer),Logistic Regression,1 · + scaling,0.982,0.981,0.981,0.981,
+Benchmark (Wisconsin breast cancer),Logistic Regression,2 · + outlier removal,0.982,0.981,0.981,0.981,
+Benchmark (Wisconsin breast cancer),Logistic Regression,3 · + feature selection,0.965,0.962,0.962,0.962,
+Benchmark (Wisconsin breast cancer),Logistic Regression,4 · + tuning,0.965,0.962,0.962,0.962,{'clf__C': 1}
+Benchmark (Wisconsin breast cancer),SVM (RBF),0 · baseline,0.93,0.934,0.915,0.923,
+Benchmark (Wisconsin breast cancer),SVM (RBF),1 · + scaling,0.982,0.981,0.981,0.981,
+Benchmark (Wisconsin breast cancer),SVM (RBF),2 · + outlier removal,0.991,0.993,0.988,0.991,
+Benchmark (Wisconsin breast cancer),SVM (RBF),3 · + feature selection,0.956,0.955,0.95,0.953,
+Benchmark (Wisconsin breast cancer),SVM (RBF),4 · + tuning,0.965,0.962,0.962,0.962,"{'clf__C': 10, 'clf__gamma': 0.1}"

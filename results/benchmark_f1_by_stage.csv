@@ -1,0 +1,6 @@
+stage,Logistic Regression,Naive Bayes,SVM (RBF)
+0 · baseline,0.962,0.934,0.923
+1 · + scaling,0.981,0.925,0.981
+2 · + outlier removal,0.981,0.899,0.991
+3 · + feature selection,0.962,0.89,0.953
+4 · + tuning,0.962,0.89,0.962

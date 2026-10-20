@@ -1,0 +1,4 @@
+dataset,model,accuracy,precision,recall,f1,cv_mean,cv_std
+Benchmark (Wisconsin breast cancer),Naive Bayes,0.93,0.925,0.925,0.925,0.932,0.004
+Benchmark (Wisconsin breast cancer),Logistic Regression,0.982,0.981,0.981,0.981,0.98,0.013
+Benchmark (Wisconsin breast cancer),SVM (RBF),0.982,0.981,0.981,0.981,0.971,0.018
